@@ -5,7 +5,7 @@ function start_timer(){
     if(!timer_runs){
         timer_runs = true;
         let start_time = new Date().getTime();
-        const five_minutes = 1000 * 60 * 50;
+        const five_minutes = 1000 * 60 * 5;
         let end_time = start_time + five_minutes;
     
         let timer = setInterval(function(){
