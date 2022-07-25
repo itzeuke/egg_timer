@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(15, 15, 24);
+}
+
+#menu {
+    color: white;
+    font-size: 35px;
+    width: 100%;
+}
+
+#egg {
+    height: 50vw;
+}
+
+#img {
+    margin-top: 16vw;
+}
+
+#time {
+    color: white;
+    margin-top: 10vh;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#start {
+    margin-top: 30%;
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
+}
