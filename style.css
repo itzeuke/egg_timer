@@ -1,5 +1,6 @@
 body {
     background-color: rgb(15, 15, 24);
+    user-select: none;
 }
 
 #menu {
