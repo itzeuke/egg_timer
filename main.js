@@ -14,7 +14,7 @@ function start_timer(){
         button.src = "img/restart_button.png";
 
         let start_time = new Date().getTime();
-        const five_minutes = 1000 * 60 * .1;
+        const five_minutes = 1000 * 60 * 5;
         let end_time = start_time + five_minutes;
 
         timer = setInterval(function(){
